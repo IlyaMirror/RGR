@@ -1,0 +1,228 @@
+@media (max-width: 770px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #9aa3ba;
+        line-height: 26px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.1;
+        text-transform: uppercase;
+    }
+    
+    span {
+        text-transform: lowercase;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    li {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    h1 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #fff;
+        margin: 0;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+    
+    p{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 30px;
+        letter-spacing: 1.1px;
+        text-align: center;
+    }
+    
+    .btn-primaty { 
+        -moz-box-shadow: 0px 0px 14px #12c2c4; 
+        -webkit-box-shadow: 0px 0px 14px #12c2c4; 
+        box-shadow: 0px 0px 40px #12c2c4; 
+        margin: 10px; 
+        padding: 5px 15px;
+        border: 5px solid #fff;
+        letter-spacing: 3.5px;
+        color: #fff;
+    }
+    
+    .page-header {
+        background-image: url(../img/fon_men.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 431px;
+    }
+    
+    
+    .container-header {
+        display: flex;
+        padding-top: 5px;
+        justify-content: space-between;
+        margin-right: 70px;
+    }
+    
+    .shape {
+        max-width: 260px;
+        list-style-type: none;
+    }
+    .shape-item {
+        filter: opacity(0.2) drop-shadow(0 0 0 #ac4e6e);
+        padding: 5px 0;
+    }
+    
+    .item-one{
+        max-width: 260px;
+    }
+    
+    .item-two{
+        max-width: 208px;
+    }
+    
+    .item-three {
+        max-width: 158px;
+    }
+    
+    .item-four{
+        max-width: 108px;
+    }
+    
+    .item-five{
+        max-width: 108px;
+    }
+    
+    .item-sex{
+        max-width: 158px;
+    }
+    
+    .item-seven{
+        max-width: 208px;
+    }
+    
+    .item-nine{
+        max-width: 260px;
+    }
+    
+    .nav {
+        display: flex;
+        font-size: 16px;
+        font-weight: 600;
+        color: #6e7ea9;
+        list-style-type: none;
+        border-bottom: 1px solid #fff;
+        margin-left: 150px;
+    }
+    
+    .nav>li {
+        padding: 5px 15px;
+    }
+    
+    .logo {
+        border-bottom: none;
+        -moz-box-shadow: 0px 0px 14px #12c2c4; 
+        -webkit-box-shadow: 0px 0px 14px #12c2c4; 
+        box-shadow: 0px 0px 40px #12c2c4; 
+        margin: 5px; 
+        padding: 15px 5px;
+        border: 5px solid #fff;
+        letter-spacing: 3.5px;
+        color: #fff;
+        align-self: center;
+    }
+    
+    .ramka {
+        background-image: url(../img/ramka.png);
+        background-repeat: no-repeat;
+        background-size: 42%;
+        height: 284px;
+        margin-top: -74px;
+        margin-left: 102px;
+    }
+    
+    .txt {
+        margin-top: -233px;
+        max-width: 350px;
+        margin-left: 393px;
+        text-align: center;
+        display: block;
+    }
+    
+    .buttom {
+        display: flex;
+        transform: scaleX(-1);
+        margin-top: 35px;
+    }
+    
+    .right{
+        justify-content: flex-end;
+    }
+    
+    .shape-button {
+        filter: opacity(0.1) drop-shadow(0 0 0 #2c181a);
+        padding: 5px 0;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0 20px;
+        margin-top: -30px;
+    }
+    
+    
+    .social {
+        display: flex;
+    }
+    .icon {
+        padding: 0px 10px;
+        font-size: 16px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    
+    .instagramm {
+        background-image: url(../img/INSTAGRAM_icon-icons.com_65535.png);
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: 3px;
+    }
+    
+    .facebook {
+        background-image: url(../img/FB_icon-icons.com_65534.png);
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: 3px;
+    }
+    
+    .twitter {
+        background-image: url(../img/1485972269-twitersocialnetworkbrandlogo_78989.png);
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: 4px;
+    }
+    
+    .whatsapp {
+        background-image: url(../img/free-icon-whatsapp-160200.png);
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: 4px;
+    }
+}
